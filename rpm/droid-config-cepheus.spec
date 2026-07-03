@@ -11,7 +11,7 @@
 
 # Community HW adaptations need this
 %define community_adaptation 1
-%define android_version_major 10
+%define android_version_major 11
 
 %define pixel_ratio 1.5
 
