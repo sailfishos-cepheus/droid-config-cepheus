@@ -5,7 +5,7 @@ Conflicts=shutdown.target actdead.target
 [Service]
 Type=simple
 RemainAfterExit=yes
-ExecStartPre=/sbin/insmod /lib/modules/4.14.180+/wlan.ko
+ExecStartPre=/sbin/modprobe wlan
 ExecStart=/bin/sh -c 'echo ON > /dev/wlan'
 ExecStop=/sbin/modprobe -r wlan
 Restart=on-failure
