@@ -18,6 +18,11 @@
 # Device-specific usb-moded configuration
 Provides: usb-moded-configs
 
+# Device-specific ofono configuration
+Provides: ofono-configs
+Obsoletes: ofono-configs-mer
+Obsoletes: ofono-configs-binder
+
 # For bluez5
 Provides: bluez5-configs
 Obsoletes: bluez5-configs-mer
