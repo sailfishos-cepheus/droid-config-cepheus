@@ -35,7 +35,7 @@ Requires: geoclue-provider-mlsdb
 
 # Devices with 2G or more memory should also include this booster
 # to improve camera startup times and the like
-#Requires: mapplauncherd-booster-silica-qt5-media
+Requires: mapplauncherd-booster-silica-qt5-media
 
 %description -n patterns-sailfish-device-configuration-cepheus
 Pattern with packages for cepheus configurations
