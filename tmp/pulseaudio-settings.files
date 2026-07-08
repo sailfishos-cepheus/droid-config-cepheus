@@ -29,3 +29,4 @@
 /var/lib/nemo-pulseaudio-parameters/algs/mainvolume/hp
 /var/lib/nemo-pulseaudio-parameters/algs/mainvolume/lineout
 /var/lib/nemo-pulseaudio-parameters/algs/mainvolume/bta2dp
+/lib/udev/rules.d/99-pulseaudio-ignore-builtin-card.rules

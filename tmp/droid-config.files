@@ -81,6 +81,7 @@
 /usr/libexec/droid-hybris/system/etc/init/disabled_services.rc
 /etc/libncicore.conf
 /etc/gbinder.d/anbox-hybris.conf
+/etc/audio_policy_configuration.xml
 /etc/mce/70-backlight.ini
 /etc/selinux/minimum/contexts/files/file_contexts
 /etc/selinux/minimum/contexts/dbus_contexts
@@ -102,6 +103,7 @@
 /odm/lib/libicui18n.so
 /usr/share/ngfd/plugins.d/51-ffmemless.ini
 /usr/share/csd/settings.d/hw-settings.ini
+/usr/bin/droid/droid-early-init.sh
 /usr/lib/systemd/system/multi-user.target.wants/wlan-module-load.service
 /usr/lib/systemd/system/wlan-module-load.service
 /usr/libexec/droid-hybris/system/etc/init/android.hardware.media.omx@1.0-service.rc
