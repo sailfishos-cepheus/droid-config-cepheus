@@ -1,4 +1,4 @@
-%defattr(-,root,root,-)
+
 /lib/udev/rules.d/997-droid-bsg.rules
 /lib/udev/rules.d/998-droid-system.rules
 /lib/udev/rules.d/997-droid-drm.rules
@@ -11,6 +11,7 @@
 /etc/sec_config
 /etc/media_codecs_performance.xml
 /etc/sap.conf
+/etc/nfcd/defaults.d/off-by-default.conf
 /etc/gps.conf
 /etc/acdbdata
 /etc/media_codecs_google_video.xml
@@ -83,6 +84,7 @@
 /etc/gbinder.d/anbox-hybris.conf
 /etc/audio_policy_configuration.xml
 /etc/mce/70-backlight.ini
+/etc/connman/main.conf.d/10-cepheus.conf
 /etc/selinux/minimum/contexts/files/file_contexts
 /etc/selinux/minimum/contexts/dbus_contexts
 /etc/selinux/minimum/policy/policy.30
@@ -104,7 +106,15 @@
 /usr/share/ngfd/plugins.d/51-ffmemless.ini
 /usr/share/csd/settings.d/hw-settings.ini
 /usr/bin/droid/droid-early-init.sh
+/usr/bin/droid/droid-misc.sh
+/usr/bin/droid/droid-get-bt-address.sh
+/usr/lib/systemd/system/droid-hcismd-up.service
+/usr/lib/systemd/system/droid-misc.service
+/usr/lib/systemd/system/multi-user.target.wants/droid-hcismd-up.service
+/usr/lib/systemd/system/multi-user.target.wants/droid-misc.service
+/usr/lib/systemd/system/multi-user.target.wants/vendor-lib64-hw-audio.primary.default.so.mount
 /usr/lib/systemd/system/multi-user.target.wants/wlan-module-load.service
+/usr/lib/systemd/system/vendor-lib64-hw-audio.primary.default.so.mount
 /usr/lib/systemd/system/wlan-module-load.service
 /usr/libexec/droid-hybris/system/etc/init/android.hardware.media.omx@1.0-service.rc
 /usr/libexec/droid-hybris/system/etc/init/init_device.rc
