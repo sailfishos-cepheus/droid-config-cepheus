@@ -1,0 +1,15 @@
+[Unit]
+Description=Mount for /vendor/lib64/hw/audio.primary.default.so
+Before=local-fs.target systemd-modules-load.service
+
+[Mount]
+What=/usr/libexec/droid-hybris/system/lib64/hw/audio.hidl_compat.default.so
+Where=/vendor/lib64/hw/audio.primary.default.so
+Type=none
+Options=bind
+# Default is 90 which makes mount period too long in case of
+# errors so drop it down a notch.
+TimeoutSec=10
+
+[Install]
+WantedBy=local-fs.target
