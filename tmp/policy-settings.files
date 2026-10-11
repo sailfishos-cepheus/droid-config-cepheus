@@ -1,5 +1,7 @@
 /etc/dbus-1/system.d/ohm-policy.conf
 /etc/ohm/ohmd.ini
 /etc/ohm/plugins.d/dbus_signal.ini
+/etc/ohm/plugins.d/dbus_method.ini
 /etc/ohm/dbus_signal_conf.ini
+/etc/ohm/dbus_method_conf.ini
 /etc/ohm/modules.ini

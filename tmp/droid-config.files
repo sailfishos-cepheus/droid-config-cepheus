@@ -18,14 +18,6 @@
 /etc/mixer_paths.xml
 /etc/xtra_root_cert.pem
 /etc/media_profiles.xml
-/etc/obexd/opp.conf
-/etc/obexd/noplugins/mas
-/etc/obexd/noplugins/irmc
-/etc/obexd/noplugins/syncevolution
-/etc/obexd/noplugins/ftp
-/etc/obexd/excludes/bluetooth:pcsuite
-/etc/obexd/pbap.conf
-/etc/obexd/root
 /etc/lowi.conf
 /etc/media_codecs_google_telephony.xml
 /etc/media_codecs_google_audio.xml
@@ -90,6 +82,7 @@
 /etc/selinux/minimum/policy/policy.30
 /etc/selinux/config
 /etc/sensorfw/sensord.conf.d/60-sensor-selection-overrides.conf
+/etc/ofono/binder.d/zz-nondata.conf
 /etc/usb-moded/99-usb-moded-configfs-cepheus.ini
 /etc/usb-moded/80-use-ask-mode.ini
 /etc/usb-moded/run/down-usb0.ini.txt
@@ -116,6 +109,7 @@
 /usr/lib/systemd/system/multi-user.target.wants/wlan-module-load.service
 /usr/lib/systemd/system/vendor-lib64-hw-audio.primary.default.so.mount
 /usr/lib/systemd/system/wlan-module-load.service
+/usr/libexec/droid-hybris/system/etc/init/dual-sim.rc
 /usr/libexec/droid-hybris/system/etc/init/android.hardware.media.omx@1.0-service.rc
 /usr/libexec/droid-hybris/system/etc/init/init_device.rc
 /usr/libexec/droid-hybris/system/etc/init/overrides.rc

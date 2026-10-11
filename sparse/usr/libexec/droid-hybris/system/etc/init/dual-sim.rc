@@ -1,0 +1,2 @@
+on early-init
+    setprop persist.radio.multisim.config dsds

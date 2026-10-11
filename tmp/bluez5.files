@@ -5,3 +5,12 @@
 /etc/bluez5/bluetooth/input.conf
 /etc/pulse/xpolicy.conf.d/bluez5_earpiece.conf
 /etc/pulse/xpolicy.conf.d/bluez5.conf
+/etc/obexd/opp.conf
+/etc/obexd/noplugins/mas
+/etc/obexd/noplugins/irmc
+/etc/obexd/noplugins/syncevolution
+/etc/obexd/noplugins/ftp
+/etc/obexd/excludes/bluetooth:pcsuite
+/etc/obexd/pbap.conf
+/etc/obexd/root
+/usr/lib/systemd/system/bluetooth.service.d/uhid.conf
